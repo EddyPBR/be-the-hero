@@ -62,3 +62,13 @@ app.use(express.json());
   * foi utilizado para obter um ID da ONG
   * 
   */
+
+/**
+ * Sobre Login, normalmente ID's vem no header da requisição (request.headers;)
+ */
+
+/**
+ * Ler mais sobre http status code é interessante visto o
+ * que é passado no DELETE do IncidentController.js
+ * 
+ */

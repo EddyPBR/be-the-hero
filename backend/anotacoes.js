@@ -72,3 +72,14 @@ app.use(express.json());
  * que é passado no DELETE do IncidentController.js
  * 
  */
+
+/**
+ * Controllers:
+ * 
+ * Session é para o login
+ * Profile é para listagens especificas
+ * 
+ * PS: pelo padrão MVC só podem existir 5 funcionalidades por arquivo de controller
+ *     interessante ler mais sobre.
+ * 
+ */

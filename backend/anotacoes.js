@@ -55,3 +55,10 @@ app.use(express.json());
  * 
  * yarn knex lista todos os comandos possiveis
  */
+
+ /**
+  * PACOTE CRYPTO (ja vem com o NODE)
+  * 
+  * foi utilizado para obter um ID da ONG
+  * 
+  */

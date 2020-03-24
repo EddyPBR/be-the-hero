@@ -26,6 +26,7 @@
  * yarn add knex
  * yarn add sqlite3
  * yarn knex init
+ * 
  */
 
 // converte o json em um objeto entendível pela aplicação
@@ -54,6 +55,7 @@ app.use(express.json());
  * e vualá, foi criado o banco de dados
  * 
  * yarn knex lista todos os comandos possiveis
+ * 
  */
 
  /**
@@ -65,6 +67,9 @@ app.use(express.json());
 
 /**
  * Sobre Login, normalmente ID's vem no header da requisição (request.headers;)
+ * A contagem de quantos "CASOS" existem na consulta tambem são passadas no headers como mostrado a seguir:
+ * ==> response.header('X-Total-Count', count['count(*)']);
+ * 
  */
 
 /**

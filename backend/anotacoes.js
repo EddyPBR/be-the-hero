@@ -88,3 +88,12 @@ app.use(express.json());
  *     interessante ler mais sobre.
  * 
  */
+
+
+/**
+ * CORS PARA PRODUCAO:
+    app.use(cors({
+      origin: 'http://meudominio.com/'
+    }));
+ *
+ */
